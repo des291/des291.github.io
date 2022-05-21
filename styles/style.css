@@ -1,0 +1,35 @@
+#news-header {
+    color: #FF4D00;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sport-header {
+    color: #00b2ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.collapsible {
+    /* background-color: #777; */
+    /* color: white; */
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+}
+
+.active,
+.collapsible:hover {
+    /* background-color: #555; */
+    font-weight: bolder;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
